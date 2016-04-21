@@ -1,6 +1,7 @@
 # qrcode-website
 Imprimir código QR en sitio Web
-Ejemplo simple de como generar un código QR en nuestro sitio we.
+
+Ejemplo simple de como generar un código QR en nuestro sitio web.
 
 Para poder implementarlo es necesario lo siguiente:
 Jquery la versión que gusten.
