@@ -8,6 +8,10 @@ Jquery la versión que gusten.
 Librería jquery.qrcode.js
 Con su complemento qrcode.js
 
+        <script src="jquery-1.11.3.min%20.js"></script>
+        <script src="jquery.qrcode.js"></script>
+        <script src="qrcode.js"></script>
+
 Luego hacemos la petición con 
 
     	                    
