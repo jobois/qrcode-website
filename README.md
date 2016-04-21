@@ -26,3 +26,5 @@ Luego hacemos la petición con
 Para ello es necesario tener en nuestro html un div con identificador "qrcodeCanvas" para poder ejecutarlo
 
     <div style="width:50px;text-align:center;margin:0 auto;" id="qrcodeCanvas"></div>
+
+Y es lo único que hay que realizar y ya tenemos la impresión de un código QR en una página html (php, aspx, en lo que decidas hacerlo)
