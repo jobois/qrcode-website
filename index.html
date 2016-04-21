@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>Correo de confirmación de pre-registro</title>
+      <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <script src="jquery-1.11.3.min%20.js"></script>
+    
+    
+    <script src="jquery.qrcode.js"></script>
+    <script src="qrcode.js"></script>
+    <script src="jquery-barcode.js"></script>	  
+	  
+    	                <script type="text/javascript">
+    	                    var j = jQuery.noConflict();
+    	                    j(document).ready(function () {
+    	                        j('#qrcodeCanvas').qrcode({
+    	                            text: "VALOR QR",
+    	                            width: 75,
+    	                            height: 75
+    	                        });
+    	                        j(".codigodebarras").barcode("VALOR BARRA", "code128");
+    	                    });
+	                </script>	  
+   </head>
+   <body>
+                    		<div class="col-md-6" style="text-align:center;"><div style="width:50px;text-align:center;margin:0 auto;" id="qrcodeCanvas"></div></div>
+							<BR>
+							<BR>
+		                    <div class="col-md-6" style="text-align:center;">  <div style="margin:auto auto;" class="codigodebarras"></div></div>
+   </body>
+</html>
