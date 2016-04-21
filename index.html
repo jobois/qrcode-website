@@ -7,7 +7,6 @@
     
     <script src="jquery.qrcode.js"></script>
     <script src="qrcode.js"></script>
-    <script src="jquery-barcode.js"></script>	  
 	  
     	                <script type="text/javascript">
     	                    var j = jQuery.noConflict();
@@ -17,14 +16,11 @@
     	                            width: 75,
     	                            height: 75
     	                        });
-    	                        j(".codigodebarras").barcode("VALOR BARRA", "code128");
     	                    });
 	                </script>	  
    </head>
    <body>
-                    		<div class="col-md-6" style="text-align:center;"><div style="width:50px;text-align:center;margin:0 auto;" id="qrcodeCanvas"></div></div>
-							<BR>
-							<BR>
-		                    <div class="col-md-6" style="text-align:center;">  <div style="margin:auto auto;" class="codigodebarras"></div></div>
+                    		<div style="width:50px;text-align:center;margin:0 auto;" id="qrcodeCanvas"></div>
+
    </body>
 </html>
